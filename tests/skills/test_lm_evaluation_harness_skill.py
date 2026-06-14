@@ -298,6 +298,7 @@ def test_plot_learning_curve_no_data(tmp_path) -> None:
         "references/custom-tasks.md",
         "references/distributed-eval.md",
         "references/result-examples.md",
+        "references/evaluation-guide.md",
     ],
 )
 def test_reference_doc_exists(ref_name: str) -> None:
